@@ -1,14 +1,13 @@
-import hello from "./hello";
+import Hello from "./Hello";
 import './App.css';
 
-function App() {
-  return (
-    <div >
-      hello world
+function App({name}) {
+  return   <div >
+      hello world {name}
       <br/>
-      <hello></hello>
+      <Hello></Hello>
     </div>
-  );
+  
 }
 
 export default App;

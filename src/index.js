@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <div><App/></div>,
+  <div><App name="ali"/></div>,
   document.getElementById('root')
 );
 
